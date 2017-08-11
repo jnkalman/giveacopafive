@@ -19,6 +19,21 @@ h1 {
   vertical-align: center;
 }
 
+/* set video position and alt image */
+video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+ background: url(http://bluelightscollege.org/wp-content/uploads/2017/03/pexels-photo-230875.jpeg) no-repeat;
+  background-size: cover;
+  transition: 1s opacity;
+}
 
 /* BEGIN navbar settings */
 .navbar {
@@ -86,21 +101,6 @@ bottom: 0px;
 /* END main content section settings */
 
 
-/* set video position and alt image */
-video {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -100;
-    transform: translateX(-50%) translateY(-50%);
- background: url(http://bluelightscollege.org/wp-content/uploads/2017/03/pexels-photo-230875.jpeg) no-repeat;
-  background-size: cover;
-  transition: 1s opacity;
-}
 
 
 /* BEGIN rainbows :) */
@@ -142,5 +142,4 @@ video {
     -webkit-filter: hue-rotate(-360deg);
   }
 }
-
 /* END rainbows :( */
