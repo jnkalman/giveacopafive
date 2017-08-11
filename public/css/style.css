@@ -1,0 +1,146 @@
+/* Custom styles for giveacopafive. */
+
+* {
+  border-radius: 0 !important;
+}
+
+body {
+ font-family: "Raleway", "Helvetica", Arial, sans-serif;
+}
+
+h1 {
+  font-family: 'Rock Salt', 'Helvetica', Arial, sans-serif;
+  color:#e95f1b !important;
+  text-align:center;
+
+}
+
+.col-md-12 {
+  vertical-align: center;
+}
+
+
+/* BEGIN navbar settings */
+.navbar {
+  width:100vw;
+  margin-left:-1.1em;
+  padding-left:.25em;
+  padding-right:0em;
+}
+
+.navbar-brand {
+  color:#e95f1b !important;
+  font-family: 'Rock Salt', 'Helvetica', Arial, sans-serif;
+}
+/* END navbar settings */
+
+/* BEGIN main content section settings */
+.jumbotron {
+  width:100vw;
+margin-top:2.7em;
+  margin-left:-1em;
+  border-radius:0px;
+  background-color:transparent;
+}
+
+.paragraph-content {
+  background-color: #222;
+  color:#e95f1b;
+  padding:2em;
+  margin-top:-3em;
+  text-align: center;
+  font-size:1.1em;
+  font-weight:lighter;
+
+}
+
+.buttonp {
+  background-color: transparent;
+  text-align: center;
+  margin-top: 2em;
+  font-family: 'Rock Salt', 'Helvetica', Arial, sans-serif;
+}
+
+#printbutton {
+  font-family: 'Rock Salt', 'Helvetica', Arial, sans-serif;
+
+}
+
+.colorblock-bottom {
+  width:100vw;
+  height:7vh;
+  background-color: #222;
+  margin-left:-1.1em;
+  margin-top:3em;
+  position: fixed;
+bottom: 0px;
+}
+
+.white-text {
+  margin-top:1em;
+  color:white;
+  font-size:1.2em;
+  font-family: 'Rock Salt', 'Helvetica', Arial, sans-serif;
+
+}
+/* END main content section settings */
+
+
+/* set video position and alt image */
+video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+ background: url(http://bluelightscollege.org/wp-content/uploads/2017/03/pexels-photo-230875.jpeg) no-repeat;
+  background-size: cover;
+  transition: 1s opacity;
+}
+
+
+/* BEGIN rainbows :) */
+.rainbow-header {
+  color: #f35626;
+  /*background-image: -webkit-linear-gradient(92deg,#f35626,#feab3a);*/
+  background-image: -webkit-linear-gradient(92deg,#e95f1b,#e95f1b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: hue 60s infinite linear;
+
+}
+
+.rainbow-main {
+  color: #f35626;
+    padding-bottom:20px;
+    padding-top:10px;
+    background-image: -webkit-linear-gradient(92deg,#e95f1b,#e95f1b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: hue 60s infinite linear;
+}
+
+.rainbow-button {
+  color: #1BE9D9;
+    background-image: -webkit-linear-gradient(92deg,#5BC0DE,#5BC0DE);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: hue 60s infinite linear;
+
+}
+
+@-webkit-keyframes hue {
+  from {
+    -webkit-filter: hue-rotate(0deg);
+  }
+
+  to {
+    -webkit-filter: hue-rotate(-360deg);
+  }
+}
+
+/* END rainbows :( */

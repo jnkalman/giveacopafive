@@ -1,2 +1,2 @@
-# giveacopafive
-Marketing campaign for Blue Lights College to connect the community and the police.
+# gacaf
+Landing site for Blue Lights College's Give a Cop a Five marketing campaign.
